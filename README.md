@@ -1,3 +1,3 @@
 # DataReductionWorkflow
 
-This repository contains all the works for an ongoing result.
+This repository contains all the works for an ongoing research.
