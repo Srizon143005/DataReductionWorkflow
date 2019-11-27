@@ -1,2 +1,3 @@
 # DataReductionWorkflow
-This repository is under construction.
+
+This repository contains all the works for an ongoing result.
