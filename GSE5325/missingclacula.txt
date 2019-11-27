@@ -1,0 +1,22 @@
+data <- read.csv("F:/Thesis/New/Data/GSE5325.csv", row.names=1)
+#data2 <- read.csv("F:/Thesis/New/Data/sorting.csv", row.names=1)
+#print(data[1,5])
+for(i in 1:2)
+{
+  print(i)
+  x=as.numeric(data[i:i,1:105])
+  #s<-sort(x)
+  #print(s)
+  median.result <- median(x, na.rm = TRUE)
+  print(median.result)
+}
+print("vjnsj")
+for(i in 1:nrow(data2))
+{
+  print(i)
+  x2=as.numeric(data2[i:i,1:8])
+  s<-sort(x2)
+  print(s)
+  median.result <- median(x2,na.rm=TRUE)
+  print(median.result)
+}
